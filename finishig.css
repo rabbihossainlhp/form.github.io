@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(68, 2, 235);
+    padding-top:0px ;
+    text-shadow: 1px 2px 3px rgb(49, 31, 35) ;
+}
+
+.control{
+    margin: 0px auto;
+    background-color: rgb(173, 132, 212);
+    width: 420px;
+    height: 480px;
+    border: 1px solid blue;
+    box-shadow: 3px 3px 4px rgb(83, 92, 74) ;
+    border-radius: 20px;
+}
+
+.control .Firstname{
+    color: rgb(0, 255, 21);
+    margin-left: 10px;
+    font-weight: bold;
+}
+.control #Firstname{
+    border: 1px solid rgb(0, 255, 21);
+    width: 100px;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px rgb(72, 64, 64);
+    
+}
+
+.control .Secondname{
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+}
+.control #Secondname{
+    border: 1px solid rgb(0, 255, 21);
+    width: 100px;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px rgb(72, 64, 64);
+    
+    
+}
+
+.control #gmail{
+    color: rgb(0, 255, 21);
+    margin-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    
+}
+
+
+.control #email{
+    border: 1px solid rgb(0, 255, 21);
+    width: 200px;
+    border-radius: 30px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px rgb(72, 64, 64);
+    margin-top: 20px;
+}
+    
+.control h2{
+    background-color: rgb(255, 103, 225);
+    width: 140px;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 30px;
+    margin: 30px 0 5px 59px;
+    box-shadow: 2px 2px  3px rgb(20, 20, 20) ;
+}
+
+hr{
+    width: 260px;
+    border: 1px solid rgb(255, 103, 225);
+    margin-bottom: 17px;
+    box-shadow: 5px 2px 2px black;
+}
+
+.control #genderfmale, #genermale, #gendercustom{
+    margin-left: 90px;
+    margin-top: 10px;
+    color: rgb(30, 255, 0);
+    font-weight: bold;
+}
+
+.control #a,#b,#c{
+    color: rgb(0, 255, 21);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    
+}
+
+/*margin-applying in defferant radion*/
+.control #a{
+    margin-top: 20px;
+}
+/*margin-applying in defferant radion*/
+
+.control #checkbox{
+    margin-left: 58px;
+    margin-top: 20px;
+}
+.control .checkbox{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.control .submit{
+    margin-top: 57px;
+    margin-left: 250px;
+}
+.control .reset{
+    margin-left: 3px;
+}
+.control .reset,.submit{
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 103, 225);
+    border-radius: 7px;
+    background-color: rgb(129, 94, 219);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 3px black
+    
+    
+}
+
+@media (max-width:360px){
+    .control{
+        width: 360px;
+    }
+
+    .control #fixing1{
+        margin-left: 178px;
+        margin-top: 30px;
+    }
+
+    .control #Firstname{
+        width: 60px;
+    }
+    .control #Secondname{
+        width: 60px;
+    }
+
+    .control .Firstname,.Secondname,#gmail{
+        font-size: 14px;
+    }
+
+
+}
